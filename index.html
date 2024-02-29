@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Age</title>
+    <link rel="icon" href="#"/>
+    <script src="script.js" defer ></script> 
+</head>
+<body>
+  <main>
+    <div class="principal-container">
+      <section class="sec-1">
+        <div>
+          <h2 id="title-day">DAY</h2>
+          <input id="day" type="text" placeholder="DD" maxlength="2">
+          <p id="error-text-day"></p>
+        </div>
+        <div>
+          <h2 id="title-month">MONTH</h2>
+          <input id="month" type="text" placeholder="MM" maxlength="2">
+          <p id="error-text-month"></p>
+        </div>
+        <div>
+          <h2 id="title-year">YEAR</h2>
+          <input id="year" type="text" placeholder="YYYY" maxlength="4">
+          <p id="error-text-year"></p>
+        </div>
+      </section>
+      <section class="sec-2">
+        <div></div>
+        <button id="send-btn">
+          <img src="icons/icon-arrow.svg" alt="Fleche vers le bas">
+        </button>
+      </section>
+      <section class="sec-3">
+        <div>
+          <h1><span id="nb-years">--</span>years</h1>
+          <h1><span id="nb-months">--</span>months</h1>
+          <h1><span id="nb-days">--</span>days</h1>
+        </div>
+      </section>
+    </div>
+  </main>
+</body>
+</html>
